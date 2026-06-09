@@ -1,0 +1,100 @@
+# 忽略 Visual Studio 相关文件
+.vs/
+*.VC.db
+*.opendb
+*.sln
+*.suo
+*.user
+*.userprefs
+*.opensdf
+*.sdf
+
+# 忽略编译生成的文件
+Intermediate/
+Binaries/
+DerivedDataCache/
+Saved/
+Build/
+
+# 忽略项目特定生成文件
+*.openssl
+*.ubt
+*.modules
+*.target
+*.dll
+*.exe
+*.pdb
+*.exp
+*.lib
+*.ilk
+*.obj
+
+# 忽略内容浏览器缩略图
+Thumbs.db
+*.thumb
+
+# 忽略日志文件
+*.log
+
+# 忽略编辑器临时文件
+*.swp
+*.swo
+*~
+
+# 忽略性能分析文件
+*.profiling
+*.stat
+
+# 忽略崩溃报告
+Crashes/
+
+# 忽略自动化测试结果
+Automation/
+
+# 忽略代码分析文件
+CodeAnalysis/
+
+# 忽略用户特定设置
+*EditMode.ini
+*EditorPerProjectUserSettings.ini
+*EditorUserSettings.ini
+*Editor.ini
+
+# 忽略启动器缓存
+*.launcher
+*.icon
+*.localized
+
+# 忽略 macOS 系统文件
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# 忽略 Linux 系统文件
+.directory
+
+# 忽略 Python 缓存
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 忽略 Rider IDE 文件
+.idea/
+*.sln.DotSettings.user
+
+# 忽略 Visual Studio Code 文件
+.vscode/
+*.code-workspace
+
+# 忽略备份文件
+*.bak
+*.backup
+*.old
+
+# 忽略 Git 子模块特定文件（如果需要）
+/.gitmodules
+*.submodule
+
+# 大文件提醒（可选，实际由 LFS 管理）
+*.p4a
+*.p4t

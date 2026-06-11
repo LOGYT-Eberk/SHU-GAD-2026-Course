@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{031E6A6F-5CA7-46C2-B402-976D7A784793}" SchemaVersion="123">
+	<AudioObjects>
+		<WorkUnit Name="Ambience" ID="{031E6A6F-5CA7-46C2-B402-976D7A784793}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="AMB_2D_EXT_GEN" ID="{FA717BC8-E95F-45E1-B3A9-F4877778E994}" ShortID="440392209">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FF3A7982-3498-4185-A2C6-B493749B2AFE}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AF14F834-9DE6-4465-A594-5BC149B45630}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="AMB_2D_EXT_GEN" ID="{DCB61D12-1409-4A48-96E8-E92EF2A5F1BF}">
+							<Language>SFX</Language>
+							<AudioFile>ambience\AMB_2D_EXT_GEN.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="682308696"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="AMB_2D_EXT_GEN" ID="{DCB61D12-1409-4A48-96E8-E92EF2A5F1BF}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="AMB_DistantTown_Loop" ID="{DCAC1A05-E07C-49CF-8756-9A553A3A84F8}" ShortID="157828082">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FF3A7982-3498-4185-A2C6-B493749B2AFE}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AF14F834-9DE6-4465-A594-5BC149B45630}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="AMB_DistantTown_Loop" ID="{E3CC2ABC-49BD-4568-A68F-E779A4007D49}">
+							<Language>SFX</Language>
+							<AudioFile>ambience\AMB_DistantTown_Loop.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="469555121"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="AMB_DistantTown_Loop" ID="{E3CC2ABC-49BD-4568-A68F-E779A4007D49}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

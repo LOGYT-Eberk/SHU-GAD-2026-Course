@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{A3730F3A-DB00-4BB9-92F6-A6AF176B03B0}" SchemaVersion="123">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{A3730F3A-DB00-4BB9-92F6-A6AF176B03B0}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{A3730F3A-DB00-4BB9-92F6-A6AF176B03B0}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_OBJ_Campfire_Burn" ID="{A483303C-B42D-44E1-A635-CC6494D37F1D}">
+					<ChildrenList>
+						<Action Name="" ID="{9F8DF3C8-F03E-432C-AE6C-CBC2D1EF0C04}" ShortID="26010582">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="OBJ_Campfire_Burn" ID="{7911ED87-8081-4B62-9CDB-7837B9AF2868}" WorkUnitID="{2404DC4D-6CF5-4C32-BE58-271F4F9A9F0A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_AMB_DistantTown_Loop" ID="{7CD74EA5-3C35-4E6B-B5BC-4F4F55AC7824}">
+					<ChildrenList>
+						<Action Name="" ID="{2FBB5BAF-8996-41E1-80F2-A17474E3DF68}" ShortID="403569860">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMB_DistantTown_Loop" ID="{DCAC1A05-E07C-49CF-8756-9A553A3A84F8}" WorkUnitID="{031E6A6F-5CA7-46C2-B402-976D7A784793}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

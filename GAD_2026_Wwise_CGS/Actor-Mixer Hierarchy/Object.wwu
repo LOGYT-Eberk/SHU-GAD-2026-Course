@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{FC09BA16-95E4-4C5B-AB9E-7CFBA768A3B4}" SchemaVersion="123">
+	<AudioObjects>
+		<WorkUnit Name="Object" ID="{FC09BA16-95E4-4C5B-AB9E-7CFBA768A3B4}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="Campfire" ID="{2404DC4D-6CF5-4C32-BE58-271F4F9A9F0A}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

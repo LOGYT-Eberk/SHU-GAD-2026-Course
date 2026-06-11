@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1591741073",
+    "Type": "Event",
+    "GUID": "{7CD74EA5-3C35-4E6B-B5BC-4F4F55AC7824}",
+    "Language": "SFX",
+    "Hash": "{54017420-EB53-3C40-E33B-25AC221C2B5F}",
+    "ObjectPath": "Play_AMB_DistantTown_Loop",
+    "ShortName": "Play_AMB_DistantTown_Loop",
+    "Path": "Event/Play_AMB_DistantTown_Loop.bnk",
+    "Media": [
+     {
+      "Id": "469555121",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "ambience\\AMB_DistantTown_Loop.wav",
+      "Path": "Media/469555121.wem",
+      "CachePath": "F1/{F11E1BDF-C1FC-4182-714D-1ABB36AFDA2E}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1591741073",
+      "Name": "Play_AMB_DistantTown_Loop",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_AMB_DistantTown_Loop",
+      "GUID": "{7CD74EA5-3C35-4E6B-B5BC-4F4F55AC7824}",
+      "DurationType": "OneShot",
+      "DurationMin": "120.041664",
+      "DurationMax": "120.041664",
+      "MediaRefs": [
+       {
+        "Id": "469555121"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{CEAB46A6-F4B3-2EEB-EEF9-4EA93D43A5D0}"
+ }
+}

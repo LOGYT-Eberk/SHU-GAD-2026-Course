@@ -9,6 +9,32 @@
 							<ObjectRef Name="System" ID="{FC11D329-8915-41F2-93E2-473D3336565E}" WorkUnitID="{E1C1B950-52F1-41DE-9ACD-277E825A3932}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="Reverb" ID="{91BFC636-1AB8-41BA-8C73-4E1D08A04B47}">
+							<ChildrenList>
+								<AuxBus Name="Reverb_Int" ID="{7CEB48D0-8BD3-4A7A-9C52-170A7C79C096}">
+									<PropertyList>
+										<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>
+									</PropertyList>
+									<ObjectLists>
+										<ObjectList Name="Effects">
+											<Reference>
+												<Local>
+													<EffectSlot Name="" ID="{96161874-8076-4A2E-8108-B102A1858261}" ShortID="441358576">
+														<ReferenceList>
+															<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+																<ObjectRef Name="Holy" ID="{CC7B8638-C670-4AD5-B3FB-331EA81037F6}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+															</Reference>
+														</ReferenceList>
+													</EffectSlot>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</AuxBus>
+							</ChildrenList>
+						</Bus>
+					</ChildrenList>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>

@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{7CD74EA5-3C35-4E6B-B5BC-4F4F55AC7824}",
     "Language": "SFX",
-    "Hash": "{54017420-EB53-3C40-E33B-25AC221C2B5F}",
+    "Hash": "{1175B431-7369-2E40-8396-46EB157A3FFB}",
     "ObjectPath": "Play_AMB_DistantTown_Loop",
     "ShortName": "Play_AMB_DistantTown_Loop",
     "Path": "Event/Play_AMB_DistantTown_Loop.bnk",
@@ -31,6 +31,7 @@
       "Name": "Play_AMB_DistantTown_Loop",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_AMB_DistantTown_Loop",
       "GUID": "{7CD74EA5-3C35-4E6B-B5BC-4F4F55AC7824}",
+      "MaxAttenuation": "5000",
       "DurationType": "OneShot",
       "DurationMin": "120.041664",
       "DurationMax": "120.041664",
@@ -43,6 +44,6 @@
     ]
    }
   ],
-  "FileHash": "{CEAB46A6-F4B3-2EEB-EEF9-4EA93D43A5D0}"
+  "FileHash": "{C4FD75F7-F350-015E-CFB4-4388DFE590A3}"
  }
 }

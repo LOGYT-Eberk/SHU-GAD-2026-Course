@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3304247195",
+    "Type": "Bus",
+    "GUID": "{7CEB48D0-8BD3-4A7A-9C52-170A7C79C096}",
+    "Language": "SFX",
+    "Hash": "{92F51037-BF77-C92D-B8BE-B4D220D707EF}",
+    "ObjectPath": "Reverb_Int",
+    "ShortName": "Reverb_Int",
+    "Path": "Bus/Reverb_Int.bnk",
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "3164629247",
+       "Name": "Holy",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Cathedrals\\Holy",
+       "GUID": "{CC7B8638-C670-4AD5-B3FB-331EA81037F6}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ]
+    },
+    "AuxBusses": [
+     {
+      "Id": "3304247195",
+      "Name": "Reverb_Int",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Reverb_Int",
+      "GUID": "{7CEB48D0-8BD3-4A7A-9C52-170A7C79C096}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "3164629247"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  ],
+  "FileHash": "{B2222A9D-5350-49BD-F908-7CF8309BF130}"
+ }
+}

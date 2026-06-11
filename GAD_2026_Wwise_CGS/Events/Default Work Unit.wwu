@@ -25,6 +25,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Foley_FS_Run" ID="{61B9240C-F966-4310-9AE9-53BE6A879C38}">
+					<ChildrenList>
+						<Action Name="" ID="{722B835F-EFF2-4A30-A1E3-D1AD25FB2C00}" ShortID="24358333">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Foley_FS_Run" ID="{3AA0EEA3-15C8-4A84-9E82-90368D03E28F}" WorkUnitID="{32C9B0EB-2A0E-46E0-A5B5-BDA8CBA03FD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

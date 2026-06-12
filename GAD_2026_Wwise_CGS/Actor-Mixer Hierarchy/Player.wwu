@@ -43,6 +43,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<SwitchContainer Name="Foley_FS_Run" ID="{3AA0EEA3-15C8-4A84-9E82-90368D03E28F}" ShortID="264295036">
+									<PropertyList>
+										<Property Name="MakeUpGain" Type="Real64">
+											<ValueList>
+												<Value>-17</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FF3A7982-3498-4185-A2C6-B493749B2AFE}"/>

@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{7CD74EA5-3C35-4E6B-B5BC-4F4F55AC7824}",
     "Language": "SFX",
-    "Hash": "{1175B431-7369-2E40-8396-46EB157A3FFB}",
+    "Hash": "{D8799F42-EEE3-1F83-A32B-F75C4418CCDA}",
     "ObjectPath": "Play_AMB_DistantTown_Loop",
     "ShortName": "Play_AMB_DistantTown_Loop",
     "Path": "Event/Play_AMB_DistantTown_Loop.bnk",
@@ -22,7 +22,7 @@
       "Location": "Loose",
       "ShortName": "ambience\\AMB_DistantTown_Loop.wav",
       "Path": "Media/469555121.wem",
-      "CachePath": "F1/{F11E1BDF-C1FC-4182-714D-1ABB36AFDA2E}.wem"
+      "CachePath": "F5/{F5EB7228-8133-6E4F-E62B-84D639852830}.wem"
      }
     ],
     "Events": [
@@ -32,9 +32,7 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Play_AMB_DistantTown_Loop",
       "GUID": "{7CD74EA5-3C35-4E6B-B5BC-4F4F55AC7824}",
       "MaxAttenuation": "5000",
-      "DurationType": "OneShot",
-      "DurationMin": "120.041664",
-      "DurationMax": "120.041664",
+      "DurationType": "Infinite",
       "MediaRefs": [
        {
         "Id": "469555121"
@@ -44,6 +42,6 @@
     ]
    }
   ],
-  "FileHash": "{C4FD75F7-F350-015E-CFB4-4388DFE590A3}"
+  "FileHash": "{5B90335C-C944-93B0-7B33-925BEEE9DC91}"
  }
 }
